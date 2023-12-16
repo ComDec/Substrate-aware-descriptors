@@ -1,0 +1,1012 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), release date: 2022-Mar-6
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( Number of parallel threads:  20  Current date: 2022-04-04  Time: 21:29:59 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is D
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:    124.0000     62.0000     62.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     28,  Basis functions:    293,  GTFs:    502
+ Total energy:    -855.577622424803 Hartree,   Virial ratio:  2.00858963
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    62 are occupied
+ Title line of this file: Title Card Required
+
+ Loaded N.fchk successfully!
+ 
+ Formula: H11 C11 N1 O5 
+ Molecule weight:       237.20917 Da
+ Point group: C1 
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ Atom list:
+    1(C ) --> Charge:  6.000000  x,y,z(Bohr):  10.803725   3.420060   1.406121
+    2(O ) --> Charge:  8.000000  x,y,z(Bohr):   9.629881   1.034233   1.767018
+    3(C ) --> Charge:  6.000000  x,y,z(Bohr):   7.987652   0.372572  -0.002481
+    4(O ) --> Charge:  8.000000  x,y,z(Bohr):   7.449136   1.607349  -1.830966
+    5(O ) --> Charge:  8.000000  x,y,z(Bohr):   7.033937  -1.879996   0.568545
+    6(C ) --> Charge:  6.000000  x,y,z(Bohr):   5.249578  -2.876964  -1.196921
+    7(C ) --> Charge:  6.000000  x,y,z(Bohr):   2.742473  -1.575328  -1.028963
+    8(C ) --> Charge:  6.000000  x,y,z(Bohr):   0.608172  -2.779319  -0.409354
+    9(C ) --> Charge:  6.000000  x,y,z(Bohr):  -1.931765  -1.647451  -0.268312
+   10(C ) --> Charge:  6.000000  x,y,z(Bohr):  -2.457236   0.786183  -1.191847
+   11(C ) --> Charge:  6.000000  x,y,z(Bohr):  -4.866289   1.806057  -1.008999
+   12(C ) --> Charge:  6.000000  x,y,z(Bohr):  -6.763426   0.364796   0.104804
+   13(N ) --> Charge:  7.000000  x,y,z(Bohr):  -9.328679   1.440303   0.300735
+   14(O ) --> Charge:  8.000000  x,y,z(Bohr):  -9.654953   3.530572  -0.552690
+   15(O ) --> Charge:  8.000000  x,y,z(Bohr): -10.930245   0.160134   1.300672
+   16(C ) --> Charge:  6.000000  x,y,z(Bohr):  -6.327685  -2.053365   1.026250
+   17(C ) --> Charge:  6.000000  x,y,z(Bohr):  -3.902731  -3.045848   0.823857
+   18(H ) --> Charge:  1.000000  x,y,z(Bohr):  12.097760   3.669182   2.998945
+   19(H ) --> Charge:  1.000000  x,y,z(Bohr):   9.384366   4.933884   1.382429
+   20(H ) --> Charge:  1.000000  x,y,z(Bohr):  11.846954   3.456048  -0.387257
+   21(H ) --> Charge:  1.000000  x,y,z(Bohr):   5.081094  -4.887204  -0.724994
+   22(H ) --> Charge:  1.000000  x,y,z(Bohr):   6.029109  -2.677706  -3.115261
+   23(H ) --> Charge:  1.000000  x,y,z(Bohr):   2.755510   0.443063  -1.474147
+   24(H ) --> Charge:  1.000000  x,y,z(Bohr):   0.706365  -4.792282   0.064291
+   25(H ) --> Charge:  1.000000  x,y,z(Bohr):  -0.968845   1.891423  -2.090463
+   26(H ) --> Charge:  1.000000  x,y,z(Bohr):  -5.311349   3.685506  -1.717728
+   27(H ) --> Charge:  1.000000  x,y,z(Bohr):  -7.876340  -3.106852   1.878118
+   28(H ) --> Charge:  1.000000  x,y,z(Bohr):  -3.520732  -4.943875   1.535363
+ Note: Orbital    62 is HOMO, energy:   -0.307986 a.u.   -8.380723 eV
+       Orbital    63 is LUMO, energy:   -0.061074 a.u.   -1.661910 eV
+       HOMO-LUMO gap:    0.246912 a.u.    6.718812 eV    648.266986 kJ/mol
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+                 ======== Fuzzy atomic space analysis ========
+ -10 Set X,Y,Z of reference point, current:    0.00000   0.00000   0.00000 Bohr
+ -5 Define the atoms to be considered in options 1, 2, 13, current: all atoms
+ -4 Adjust reference parameter for FLU
+ -3 Set the number of iterations for Becke partition, current:  3
+ -2 Select radius definition for Becke partition, current: Modified CSD
+ -1 Select method for partitioning atomic space, current: Becke
+ 0 Return
+ 1 Perform integration in fuzzy atomic spaces for a real space function
+ 2 Calculate atomic and molecular multipole moments and <r^2>
+ 3 Calculate and output atomic overlap matrix (AOM) in current folder
+ 4 Calculate localization and delocalization index (Fuzzy bond order)
+ 5 Calculate PDI (Para-delocalization index)
+ 6 Calculate FLU (Aromatic fluctuation index)
+ 7 Calculate FLU-pi
+ 8 Perform integration in fuzzy overlap region for a real space functions
+ 9 Calculate condensed linear response kernel (CLRK)
+ 10 Calculate PLR (Para linear response index)
+ 11 Calculate multi-center delocalization index
+ 12 Calculate information-theoretic aromaticity index (ACS Omega, 3, 18370)
+ 13 Calculate atomic effective volume, free volume and polarizability
+ Note: All units below are in a.u.
+ 
+ Radial points:   75    Angular points:  434   Total:     32550 per center
+ Please wait...
+ 
+              *****  Atomic multipole moments of     1(C )  *****
+ Atomic monopole moment (electron):   -6.283381   Atomic charge:   -0.283381
+ Atomic dipole moments:
+ X=   -0.189031  Y=   -0.371354  Z=    0.046745  Norm=    0.419311
+ Contribution to molecular dipole moment:
+ X=   -3.250596  Y=   -1.340533  Z=   -0.351723  Norm=    3.533711
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.076282  XY=    0.295234  XZ=    0.029205
+ YX=    0.295234  YY=    0.271261  YZ=   -0.046154
+ ZX=    0.029205  ZY=   -0.046154  ZZ=   -0.194979
+ Magnitude of the traceless quadrupole moment tensor:    0.279783
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.194979   Q_2,-1=  -0.053294   Q_2,1=   0.033723
+ Q_2,-2=   0.340907   Q_2,2 =  -0.200654
+ Magnitude: |Q_2|=    0.445504
+ Atomic electronic spatial extent <r^2>:     10.882560
+ Components of <r^2>:  X=      3.678375  Y=      3.446679  Z=      3.757506
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.163812  Q_3,-1=  -0.323424  Q_3,1 =   1.705746
+ Q_3,-2=   0.034606  Q_3,2 =   0.122164  Q_3,-3=   0.430652  Q_3,3 =   0.700522
+ Magnitude: |Q_3|=    1.932180
+ 
+              *****  Atomic multipole moments of     2(O )  *****
+ Atomic monopole moment (electron):   -8.325679   Atomic charge:   -0.325679
+ Atomic dipole moments:
+ X=   -0.180826  Y=    0.090629  Z=   -0.331271  Norm=    0.388139
+ Contribution to molecular dipole moment:
+ X=   -3.317072  Y=   -0.246199  Z=   -0.906751  Norm=    3.447576
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.027199  XY=    0.578528  XZ=    0.461822
+ YX=    0.578528  YY=    0.145097  YZ=    0.083433
+ ZX=    0.461822  ZY=    0.083433  ZZ=   -0.117897
+ Magnitude of the traceless quadrupole moment tensor:    0.154256
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.117897   Q_2,-1=   0.096340   Q_2,1=   0.533266
+ Q_2,-2=   0.668027   Q_2,2 =  -0.099475
+ Magnitude: |Q_2|=    0.873904
+ Atomic electronic spatial extent <r^2>:     11.343405
+ Components of <r^2>:  X=      3.799268  Y=      3.684404  Z=      3.859733
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.248144  Q_3,-1=  -0.339630  Q_3,1 =  -0.643935
+ Q_3,-2=  -0.299570  Q_3,2 =  -0.012265  Q_3,-3=  -0.303758  Q_3,3 =  -0.709066
+ Magnitude: |Q_3|=    1.129829
+ 
+              *****  Atomic multipole moments of     3(C )  *****
+ Atomic monopole moment (electron):   -5.613077   Atomic charge:    0.386923
+ Atomic dipole moments:
+ X=    0.012340  Y=   -0.054544  Z=    0.066085  Norm=    0.086571
+ Contribution to molecular dipole moment:
+ X=    3.102943  Y=    0.089613  Z=    0.065125  Norm=    3.104920
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.157985  XY=    0.220745  XZ=    0.295379
+ YX=    0.220745  YY=    0.072470  YZ=   -0.227440
+ ZX=    0.295379  ZY=   -0.227440  ZZ=    0.085514
+ Magnitude of the traceless quadrupole moment tensor:    0.158164
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.085514   Q_2,-1=  -0.262625   Q_2,1=   0.341074
+ Q_2,-2=   0.254894   Q_2,2 =  -0.133053
+ Magnitude: |Q_2|=    0.524681
+ Atomic electronic spatial extent <r^2>:      8.399211
+ Components of <r^2>:  X=      2.905060  Y=      2.751423  Z=      2.742727
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.145766  Q_3,-1=   0.724639  Q_3,1 =  -0.004225
+ Q_3,-2=   0.531090  Q_3,2 =   0.284695  Q_3,-3=   0.011427  Q_3,3 =   0.270755
+ Magnitude: |Q_3|=    0.991420
+ 
+              *****  Atomic multipole moments of     4(O )  *****
+ Atomic monopole moment (electron):   -8.473573   Atomic charge:   -0.473573
+ Atomic dipole moments:
+ X=    0.156441  Y=   -0.270797  Z=    0.388298  Norm=    0.498578
+ Contribution to molecular dipole moment:
+ X=   -3.371269  Y=   -1.031994  Z=    1.255395  Norm=    3.742523
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.555663  XY=   -0.411375  XZ=    0.160054
+ YX=   -0.411375  YY=   -0.110607  YZ=   -0.828409
+ ZX=    0.160054  ZY=   -0.828409  ZZ=    0.666270
+ Magnitude of the traceless quadrupole moment tensor:    0.714101
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.666270   Q_2,-1=  -0.956564   Q_2,1=   0.184815
+ Q_2,-2=  -0.475015   Q_2,2 =  -0.256953
+ Magnitude: |Q_2|=    1.297979
+ Atomic electronic spatial extent <r^2>:     12.706588
+ Components of <r^2>:  X=      4.605971  Y=      4.309267  Z=      3.791350
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.116289  Q_3,-1=   0.233228  Q_3,1 =   0.413452
+ Q_3,-2=   0.249177  Q_3,2 =   0.016412  Q_3,-3=  -0.245179  Q_3,3 =   0.581574
+ Magnitude: |Q_3|=    0.836397
+ 
+              *****  Atomic multipole moments of     5(O )  *****
+ Atomic monopole moment (electron):   -8.315506   Atomic charge:   -0.315506
+ Atomic dipole moments:
+ X=   -0.038429  Y=    0.291575  Z=   -0.260707  Norm=    0.393015
+ Contribution to molecular dipole moment:
+ X=   -2.257681  Y=    0.884725  Z=   -0.440087  Norm=    2.464455
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.010078  XY=    0.626295  XZ=    0.376242
+ YX=    0.626295  YY=    0.266196  YZ=   -0.026657
+ ZX=    0.376242  ZY=   -0.026657  ZZ=   -0.276274
+ Magnitude of the traceless quadrupole moment tensor:    0.313357
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.276274   Q_2,-1=  -0.030781   Q_2,1=   0.434447
+ Q_2,-2=   0.723184   Q_2,2 =  -0.147870
+ Magnitude: |Q_2|=    0.900488
+ Atomic electronic spatial extent <r^2>:     11.233254
+ Components of <r^2>:  X=      3.737699  Y=      3.566954  Z=      3.928601
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.456959  Q_3,-1=  -0.307971  Q_3,1 =  -0.353485
+ Q_3,-2=  -0.408831  Q_3,2 =  -0.185278  Q_3,-3=  -0.449970  Q_3,3 =  -0.444525
+ Magnitude: |Q_3|=    1.014966
+ 
+              *****  Atomic multipole moments of     6(C )  *****
+ Atomic monopole moment (electron):   -6.157181   Atomic charge:   -0.157181
+ Atomic dipole moments:
+ X=    0.043593  Y=    0.283157  Z=    0.281155  Norm=    0.401405
+ Contribution to molecular dipole moment:
+ X=   -0.781539  Y=    0.735360  Z=    0.469288  Norm=    1.171234
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.326175  XY=    0.013736  XZ=    0.236721
+ YX=    0.013736  YY=   -0.158653  YZ=    0.133490
+ ZX=    0.236721  ZY=    0.133490  ZZ=   -0.167522
+ Magnitude of the traceless quadrupole moment tensor:    0.326216
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.167522   Q_2,-1=   0.154140   Q_2,1=   0.273342
+ Q_2,-2=   0.015861   Q_2,2 =   0.279916
+ Magnitude: |Q_2|=    0.452928
+ Atomic electronic spatial extent <r^2>:     10.393633
+ Components of <r^2>:  X=      3.247094  Y=      3.570313  Z=      3.576226
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.884245  Q_3,-1=   0.331590  Q_3,1 =   1.028510
+ Q_3,-2=  -0.068778  Q_3,2 =  -0.434341  Q_3,-3=   1.153658  Q_3,3 =  -0.228233
+ Magnitude: |Q_3|=    1.877784
+ 
+              *****  Atomic multipole moments of     7(C )  *****
+ Atomic monopole moment (electron):   -6.232679   Atomic charge:   -0.232679
+ Atomic dipole moments:
+ X=    0.044928  Y=   -0.227117  Z=    0.090971  Norm=    0.248750
+ Contribution to molecular dipole moment:
+ X=   -0.593187  Y=    0.139428  Z=    0.330388  Norm=    0.693157
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.957766  XY=    0.147428  XZ=   -0.210331
+ YX=    0.147428  YY=   -0.102878  YZ=   -0.187692
+ ZX=   -0.210331  ZY=   -0.187692  ZZ=   -0.854888
+ Magnitude of the traceless quadrupole moment tensor:    1.051580
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.854888   Q_2,-1=  -0.216728   Q_2,1=  -0.242870
+ Q_2,-2=   0.170235   Q_2,2 =   0.612363
+ Magnitude: |Q_2|=    1.113893
+ Atomic electronic spatial extent <r^2>:     11.420325
+ Components of <r^2>:  X=      3.168264  Y=      3.875361  Z=      4.376700
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.073960  Q_3,-1=  -0.194686  Q_3,1 =   0.379720
+ Q_3,-2=   0.318461  Q_3,2 =   0.902079  Q_3,-3=  -1.444699  Q_3,3 =  -0.174197
+ Magnitude: |Q_3|=    1.794498
+ 
+              *****  Atomic multipole moments of     8(C )  *****
+ Atomic monopole moment (electron):   -6.205560   Atomic charge:   -0.205560
+ Atomic dipole moments:
+ X=   -0.069296  Y=    0.280170  Z=   -0.050438  Norm=    0.292986
+ Contribution to molecular dipole moment:
+ X=   -0.194312  Y=    0.851486  Z=    0.033709  Norm=    0.874026
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.917573  XY=    0.024140  XZ=   -0.275310
+ YX=    0.024140  YY=   -0.021843  YZ=   -0.214904
+ ZX=   -0.275310  ZY=   -0.214904  ZZ=   -0.895730
+ Magnitude of the traceless quadrupole moment tensor:    1.047139
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.895730   Q_2,-1=  -0.248149   Q_2,1=  -0.317901
+ Q_2,-2=   0.027874   Q_2,2 =   0.542372
+ Magnitude: |Q_2|=    1.122459
+ Atomic electronic spatial extent <r^2>:     11.321063
+ Components of <r^2>:  X=      3.161972  Y=      3.788250  Z=      4.370841
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.075377  Q_3,-1=   0.171482  Q_3,1 =  -0.289741
+ Q_3,-2=  -0.462288  Q_3,2 =  -0.541568  Q_3,-3=   1.567542  Q_3,3 =  -0.012572
+ Magnitude: |Q_3|=    1.755958
+ 
+              *****  Atomic multipole moments of     9(C )  *****
+ Atomic monopole moment (electron):   -6.054846   Atomic charge:   -0.054846
+ Atomic dipole moments:
+ X=   -0.043997  Y=    0.044555  Z=    0.000149  Norm=    0.062617
+ Contribution to molecular dipole moment:
+ X=    0.061953  Y=    0.134912  Z=    0.014865  Norm=    0.149199
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.613877  XY=   -0.193471  XZ=   -0.317139
+ YX=   -0.193471  YY=    0.177535  YZ=   -0.503080
+ ZX=   -0.317139  ZY=   -0.503080  ZZ=   -0.791412
+ Magnitude of the traceless quadrupole moment tensor:    0.830540
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.791412   Q_2,-1=  -0.580907   Q_2,1=  -0.366201
+ Q_2,-2=  -0.223402   Q_2,2 =   0.251923
+ Magnitude: |Q_2|=    1.100573
+ Atomic electronic spatial extent <r^2>:     10.469142
+ Components of <r^2>:  X=      3.080463  Y=      3.371358  Z=      4.017322
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.014492  Q_3,-1=  -0.098659  Q_3,1 =  -0.124054
+ Q_3,-2=   0.690153  Q_3,2 =   0.564259  Q_3,-3=  -1.057787  Q_3,3 =   0.602027
+ Magnitude: |Q_3|=    1.517031
+ 
+              *****  Atomic multipole moments of    10(C )  *****
+ Atomic monopole moment (electron):   -6.188547   Atomic charge:   -0.188547
+ Atomic dipole moments:
+ X=   -0.232153  Y=   -0.218398  Z=    0.146254  Norm=    0.350689
+ Contribution to molecular dipole moment:
+ X=    0.231152  Y=   -0.366630  Z=    0.370974  Norm=    0.570500
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.384492  XY=   -0.366380  XZ=   -0.241096
+ YX=   -0.366380  YY=    0.333592  YZ=   -0.508422
+ ZX=   -0.241096  ZY=   -0.508422  ZZ=   -0.718084
+ Magnitude of the traceless quadrupole moment tensor:    0.718685
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.718084   Q_2,-1=  -0.587075   Q_2,1=  -0.278393
+ Q_2,-2=  -0.423059   Q_2,2 =   0.029387
+ Magnitude: |Q_2|=    1.057188
+ Atomic electronic spatial extent <r^2>:     11.103794
+ Components of <r^2>:  X=      3.444937  Y=      3.478870  Z=      4.179987
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.091426  Q_3,-1=   0.032239  Q_3,1 =   0.373292
+ Q_3,-2=  -0.845662  Q_3,2 =  -0.324234  Q_3,-3=   0.968600  Q_3,3 =  -0.758231
+ Magnitude: |Q_3|=    1.575473
+ 
+              *****  Atomic multipole moments of    11(C )  *****
+ Atomic monopole moment (electron):   -6.158527   Atomic charge:   -0.158527
+ Atomic dipole moments:
+ X=   -0.019400  Y=   -0.305686  Z=    0.137956  Norm=    0.335935
+ Contribution to molecular dipole moment:
+ X=    0.752036  Y=   -0.591994  Z=    0.297909  Norm=    1.002379
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.625414  XY=   -0.154741  XZ=   -0.347127
+ YX=   -0.154741  YY=    0.089964  YZ=   -0.431083
+ ZX=   -0.347127  ZY=   -0.431083  ZZ=   -0.715378
+ Magnitude of the traceless quadrupole moment tensor:    0.779317
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.715378   Q_2,-1=  -0.497772   Q_2,1=  -0.400827
+ Q_2,-2=  -0.178680   Q_2,2 =   0.309142
+ Magnitude: |Q_2|=    1.023573
+ Atomic electronic spatial extent <r^2>:     10.835613
+ Components of <r^2>:  X=      3.194928  Y=      3.551895  Z=      4.088790
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.111684  Q_3,-1=   0.030190  Q_3,1 =  -0.295269
+ Q_3,-2=   0.567248  Q_3,2 =   0.435136  Q_3,-3=  -1.127199  Q_3,3 =   0.534217
+ Magnitude: |Q_3|=    1.472293
+ 
+              *****  Atomic multipole moments of    12(C )  *****
+ Atomic monopole moment (electron):   -5.986704   Atomic charge:    0.013296
+ Atomic dipole moments:
+ X=   -0.076307  Y=    0.032568  Z=    0.004582  Norm=    0.083093
+ Contribution to molecular dipole moment:
+ X=   -0.166231  Y=    0.037418  Z=    0.005975  Norm=    0.170495
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.627227  XY=   -0.259106  XZ=   -0.367526
+ YX=   -0.259106  YY=    0.257147  YZ=   -0.572850
+ ZX=   -0.367526  ZY=   -0.572850  ZZ=   -0.884374
+ Magnitude of the traceless quadrupole moment tensor:    0.909819
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.884374   Q_2,-1=  -0.661471   Q_2,1=  -0.424382
+ Q_2,-2=  -0.299190   Q_2,2 =   0.213665
+ Magnitude: |Q_2|=    1.238922
+ Atomic electronic spatial extent <r^2>:      9.963917
+ Components of <r^2>:  X=      2.903155  Y=      3.149874  Z=      3.910888
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.026359  Q_3,-1=   0.185317  Q_3,1 =  -0.152130
+ Q_3,-2=  -0.652519  Q_3,2 =  -0.599405  Q_3,-3=   0.765038  Q_3,3 =  -0.388941
+ Magnitude: |Q_3|=    1.256904
+ 
+              *****  Atomic multipole moments of    13(N )  *****
+ Atomic monopole moment (electron):   -6.732119   Atomic charge:    0.267881
+ Atomic dipole moments:
+ X=   -0.083057  Y=    0.035413  Z=    0.006386  Norm=    0.090517
+ Contribution to molecular dipole moment:
+ X=   -2.582031  Y=    0.421243  Z=    0.086948  Norm=    2.617611
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.173124  XY=   -0.020306  XZ=   -0.193681
+ YX=   -0.020306  YY=    0.209471  YZ=   -0.355623
+ ZX=   -0.193681  ZY=   -0.355623  ZZ=   -0.382595
+ Magnitude of the traceless quadrupole moment tensor:    0.383170
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.382595   Q_2,-1=  -0.410638   Q_2,1=  -0.223643
+ Q_2,-2=  -0.023448   Q_2,2 =  -0.020984
+ Magnitude: |Q_2|=    0.604987
+ Atomic electronic spatial extent <r^2>:      9.110161
+ Components of <r^2>:  X=      2.921304  Y=      2.897073  Z=      3.291784
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.071677  Q_3,-1=   0.129728  Q_3,1 =  -0.393003
+ Q_3,-2=   0.300144  Q_3,2 =   0.127089  Q_3,-3=  -0.820726  Q_3,3 =   0.354264
+ Magnitude: |Q_3|=    1.040073
+ 
+              *****  Atomic multipole moments of    14(O )  *****
+ Atomic monopole moment (electron):   -8.300111   Atomic charge:   -0.300111
+ Atomic dipole moments:
+ X=   -0.052420  Y=   -0.432081  Z=    0.206723  Norm=    0.481847
+ Contribution to molecular dipole moment:
+ X=    2.845138  Y=   -1.491645  Z=    0.372592  Norm=    3.233982
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.693359  XY=   -0.267594  XZ=    0.269423
+ YX=   -0.267594  YY=    0.737248  YZ=   -0.313984
+ ZX=    0.269423  ZY=   -0.313984  ZZ=   -0.043889
+ Magnitude of the traceless quadrupole moment tensor:    0.827127
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.043889   Q_2,-1=  -0.362557   Q_2,1=   0.311103
+ Q_2,-2=  -0.308991   Q_2,2 =  -0.825962
+ Magnitude: |Q_2|=    1.003916
+ Atomic electronic spatial extent <r^2>:     11.525098
+ Components of <r^2>:  X=      4.303939  Y=      3.350200  Z=      3.870959
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.307217  Q_3,-1=   0.192783  Q_3,1 =  -0.110053
+ Q_3,-2=   0.171412  Q_3,2 =   0.180649  Q_3,-3=  -0.540431  Q_3,3 =  -0.264591
+ Magnitude: |Q_3|=    0.753491
+ 
+              *****  Atomic multipole moments of    15(O )  *****
+ Atomic monopole moment (electron):   -8.300214   Atomic charge:   -0.300214
+ Atomic dipole moments:
+ X=    0.244299  Y=    0.351651  Z=   -0.220478  Norm=    0.481613
+ Contribution to molecular dipole moment:
+ X=    3.525708  Y=    0.303577  Z=   -0.610958  Norm=    3.591107
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.197690  XY=    0.723037  XZ=   -0.404512
+ YX=    0.723037  YY=   -0.252556  YZ=   -0.136520
+ ZX=   -0.404512  ZY=   -0.136520  ZZ=    0.054866
+ Magnitude of the traceless quadrupole moment tensor:    0.265676
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.054866   Q_2,-1=  -0.157639   Q_2,1=  -0.467090
+ Q_2,-2=   0.834891   Q_2,2 =   0.259949
+ Magnitude: |Q_2|=    1.005311
+ Atomic electronic spatial extent <r^2>:     11.526749
+ Components of <r^2>:  X=      3.710456  Y=      4.010620  Z=      3.805672
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.344265  Q_3,-1=  -0.150288  Q_3,1 =  -0.110999
+ Q_3,-2=   0.160043  Q_3,2 =   0.022683  Q_3,-3=  -0.190641  Q_3,3 =   0.597118
+ Magnitude: |Q_3|=    0.756603
+ 
+              *****  Atomic multipole moments of    16(C )  *****
+ Atomic monopole moment (electron):   -6.158755   Atomic charge:   -0.158755
+ Atomic dipole moments:
+ X=    0.184604  Y=    0.239331  Z=   -0.148540  Norm=    0.336782
+ Contribution to molecular dipole moment:
+ X=    1.189154  Y=    0.565312  Z=   -0.311461  Norm=    1.353023
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.469327  XY=   -0.313989  XZ=   -0.242164
+ YX=   -0.313989  YY=    0.264862  YZ=   -0.457359
+ ZX=   -0.242164  ZY=   -0.457359  ZZ=   -0.734189
+ Magnitude of the traceless quadrupole moment tensor:    0.743619
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.734189   Q_2,-1=  -0.528113   Q_2,1=  -0.279627
+ Q_2,-2=  -0.362563   Q_2,2 =   0.118048
+ Magnitude: |Q_2|=    1.020546
+ Atomic electronic spatial extent <r^2>:     10.840943
+ Components of <r^2>:  X=      3.300763  Y=      3.437073  Z=      4.103107
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.005837  Q_3,-1=   0.047065  Q_3,1 =  -0.287825
+ Q_3,-2=   0.634526  Q_3,2 =   0.363604  Q_3,-3=  -1.127795  Q_3,3 =   0.542810
+ Magnitude: |Q_3|=    1.478677
+ 
+              *****  Atomic multipole moments of    17(C )  *****
+ Atomic monopole moment (electron):   -6.188881   Atomic charge:   -0.188881
+ Atomic dipole moments:
+ X=   -0.036290  Y=    0.322814  Z=   -0.120034  Norm=    0.346315
+ Contribution to molecular dipole moment:
+ X=    0.700862  Y=    0.898117  Z=   -0.275646  Norm=    1.172093
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.625377  XY=   -0.059717  XZ=   -0.372349
+ YX=   -0.059717  YY=    0.094716  YZ=   -0.462307
+ ZX=   -0.372349  ZY=   -0.462307  ZZ=   -0.720094
+ Magnitude of the traceless quadrupole moment tensor:    0.782561
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.720094   Q_2,-1=  -0.533827   Q_2,1=  -0.429951
+ Q_2,-2=  -0.068955   Q_2,2 =   0.306377
+ Magnitude: |Q_2|=    1.042586
+ Atomic electronic spatial extent <r^2>:     11.112965
+ Components of <r^2>:  X=      3.287403  Y=      3.641178  Z=      4.184384
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.183316  Q_3,-1=  -0.043426  Q_3,1 =   0.303962
+ Q_3,-2=  -0.561966  Q_3,2 =  -0.588733  Q_3,-3=   1.364164  Q_3,3 =  -0.330807
+ Magnitude: |Q_3|=    1.661528
+ 
+              *****  Atomic multipole moments of    18(H )  *****
+ Atomic monopole moment (electron):   -0.790398   Atomic charge:    0.209602
+ Atomic dipole moments:
+ X=   -0.115319  Y=   -0.053945  Z=   -0.114971  Norm=    0.171543
+ Contribution to molecular dipole moment:
+ X=    2.420398  Y=    0.715124  Z=    0.513614  Norm=    2.575564
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.008914  XY=    0.025412  XZ=    0.072798
+ YX=    0.025412  YY=   -0.023706  YZ=   -0.008961
+ ZX=    0.072798  ZY=   -0.008961  ZZ=    0.032620
+ Magnitude of the traceless quadrupole moment tensor:    0.033720
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.032620   Q_2,-1=  -0.010348   Q_2,1=   0.084060
+ Q_2,-2=   0.029344   Q_2,2 =   0.008540
+ Magnitude: |Q_2|=    0.095767
+ Atomic electronic spatial extent <r^2>:      1.177957
+ Components of <r^2>:  X=      0.398595  Y=      0.408456  Z=      0.370905
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.041332  Q_3,-1=   0.021863  Q_3,1 =   0.114657
+ Q_3,-2=   0.089573  Q_3,2 =   0.087633  Q_3,-3=   0.058299  Q_3,3 =   0.006285
+ Magnitude: |Q_3|=    0.185671
+ 
+              *****  Atomic multipole moments of    19(H )  *****
+ Atomic monopole moment (electron):   -0.776079   Atomic charge:    0.223921
+ Atomic dipole moments:
+ X=    0.070788  Y=   -0.155896  Z=   -0.022723  Norm=    0.172716
+ Contribution to molecular dipole moment:
+ X=    2.172142  Y=    0.948903  Z=    0.286831  Norm=    2.387653
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.051377  XY=   -0.039279  XZ=    0.029034
+ YX=   -0.039279  YY=    0.005354  YZ=   -0.007014
+ ZX=    0.029034  ZY=   -0.007014  ZZ=   -0.056731
+ Magnitude of the traceless quadrupole moment tensor:    0.062645
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.056731   Q_2,-1=  -0.008099   Q_2,1=   0.033525
+ Q_2,-2=  -0.045356   Q_2,2 =   0.026572
+ Magnitude: |Q_2|=    0.084683
+ Atomic electronic spatial extent <r^2>:      1.105738
+ Components of <r^2>:  X=      0.334328  Y=      0.365010  Z=      0.406400
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.010914  Q_3,-1=  -0.095788  Q_3,1 =   0.039168
+ Q_3,-2=   0.011345  Q_3,2 =  -0.035660  Q_3,-3=   0.013283  Q_3,3 =   0.085634
+ Magnitude: |Q_3|=    0.140494
+ 
+              *****  Atomic multipole moments of    20(H )  *****
+ Atomic monopole moment (electron):   -0.775970   Atomic charge:    0.224030
+ Atomic dipole moments:
+ X=   -0.122222  Y=   -0.039182  Z=    0.115900  Norm=    0.172934
+ Contribution to molecular dipole moment:
+ X=    2.531850  Y=    0.735076  Z=    0.029142  Norm=    2.636560
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=   -0.035721  XY=    0.020440  XZ=   -0.026591
+ YX=    0.020440  YY=   -0.033989  YZ=    0.020771
+ ZX=   -0.026591  ZY=    0.020771  ZZ=    0.069710
+ Magnitude of the traceless quadrupole moment tensor:    0.069717
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.069710   Q_2,-1=   0.023984   Q_2,1=  -0.030704
+ Q_2,-2=   0.023602   Q_2,2 =  -0.001000
+ Magnitude: |Q_2|=    0.083280
+ Atomic electronic spatial extent <r^2>:      1.108672
+ Components of <r^2>:  X=      0.393372  Y=      0.392217  Z=      0.323084
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.021817  Q_3,-1=   0.007326  Q_3,1 =   0.086103
+ Q_3,-2=  -0.054552  Q_3,2 =  -0.085971  Q_3,-3=   0.046144  Q_3,3 =   0.005764
+ Magnitude: |Q_3|=    0.143083
+ 
+              *****  Atomic multipole moments of    21(H )  *****
+ Atomic monopole moment (electron):   -0.765607   Atomic charge:    0.234393
+ Atomic dipole moments:
+ X=    0.003062  Y=    0.176791  Z=   -0.008893  Norm=    0.177041
+ Contribution to molecular dipole moment:
+ X=    1.194033  Y=   -0.968733  Z=   -0.178826  Norm=    1.547946
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.012741  XY=    0.008907  XZ=    0.021998
+ YX=    0.008907  YY=    0.029498  YZ=   -0.028013
+ ZX=    0.021998  ZY=   -0.028013  ZZ=   -0.042238
+ Magnitude of the traceless quadrupole moment tensor:    0.043332
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.042238   Q_2,-1=  -0.032347   Q_2,1=   0.025401
+ Q_2,-2=   0.010285   Q_2,2 =  -0.009675
+ Magnitude: |Q_2|=    0.060622
+ Atomic electronic spatial extent <r^2>:      1.075275
+ Components of <r^2>:  X=      0.349931  Y=      0.338760  Z=      0.386584
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.037703  Q_3,-1=   0.103535  Q_3,1 =   0.029517
+ Q_3,-2=  -0.028991  Q_3,2 =  -0.016411  Q_3,-3=   0.083803  Q_3,3 =  -0.007304
+ Magnitude: |Q_3|=    0.145597
+ 
+              *****  Atomic multipole moments of    22(H )  *****
+ Atomic monopole moment (electron):   -0.746203   Atomic charge:    0.253797
+ Atomic dipole moments:
+ X=   -0.049063  Y=    0.046969  Z=    0.154952  Norm=    0.169184
+ Contribution to molecular dipole moment:
+ X=    1.481109  Y=   -0.632625  Z=   -0.635693  Norm=    1.731475
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.007429  XY=    0.043330  XZ=   -0.020178
+ YX=    0.043330  YY=   -0.027207  YZ=   -0.037846
+ ZX=   -0.020178  ZY=   -0.037846  ZZ=    0.019778
+ Magnitude of the traceless quadrupole moment tensor:    0.028126
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =   0.019778   Q_2,-1=  -0.043701   Q_2,1=  -0.023300
+ Q_2,-2=   0.050034   Q_2,2 =   0.019997
+ Magnitude: |Q_2|=    0.075810
+ Atomic electronic spatial extent <r^2>:      0.998230
+ Components of <r^2>:  X=      0.327791  Y=      0.350881  Z=      0.319558
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.053397  Q_3,-1=  -0.022262  Q_3,1 =   0.076170
+ Q_3,-2=  -0.036694  Q_3,2 =  -0.027316  Q_3,-3=   0.015026  Q_3,3 =  -0.001018
+ Magnitude: |Q_3|=    0.107089
+ 
+              *****  Atomic multipole moments of    23(H )  *****
+ Atomic monopole moment (electron):   -0.729286   Atomic charge:    0.270714
+ Atomic dipole moments:
+ X=    0.029176  Y=   -0.138537  Z=    0.041811  Norm=    0.147621
+ Contribution to molecular dipole moment:
+ X=    0.775130  Y=   -0.018594  Z=   -0.357260  Norm=    0.853702
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.055633  XY=    0.043029  XZ=   -0.015840
+ YX=    0.043029  YY=    0.036703  YZ=   -0.022173
+ ZX=   -0.015840  ZY=   -0.022173  ZZ=   -0.092336
+ Magnitude of the traceless quadrupole moment tensor:    0.092981
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.092336   Q_2,-1=  -0.025603   Q_2,1=  -0.018290
+ Q_2,-2=   0.049685   Q_2,2 =   0.010929
+ Magnitude: |Q_2|=    0.110018
+ Atomic electronic spatial extent <r^2>:      0.919636
+ Components of <r^2>:  X=      0.269456  Y=      0.282077  Z=      0.368103
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.070897  Q_3,-1=  -0.097907  Q_3,1 =   0.016397
+ Q_3,-2=  -0.022647  Q_3,2 =   0.041378  Q_3,-3=   0.023097  Q_3,3 =  -0.063810
+ Magnitude: |Q_3|=    0.147348
+ 
+              *****  Atomic multipole moments of    24(H )  *****
+ Atomic monopole moment (electron):   -0.769045   Atomic charge:    0.230955
+ Atomic dipole moments:
+ X=   -0.009148  Y=    0.181945  Z=   -0.037802  Norm=    0.186056
+ Contribution to molecular dipole moment:
+ X=    0.153990  Y=   -0.924858  Z=   -0.022954  Norm=    0.937871
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.045847  XY=   -0.000702  XZ=   -0.015625
+ YX=   -0.000702  YY=    0.024592  YZ=   -0.027160
+ ZX=   -0.015625  ZY=   -0.027160  ZZ=   -0.070439
+ Magnitude of the traceless quadrupole moment tensor:    0.071500
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.070439   Q_2,-1=  -0.031362   Q_2,1=  -0.018042
+ Q_2,-2=  -0.000810   Q_2,2 =   0.012272
+ Magnitude: |Q_2|=    0.080137
+ Atomic electronic spatial extent <r^2>:      1.123792
+ Components of <r^2>:  X=      0.344033  Y=      0.358203  Z=      0.421557
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.067953  Q_3,-1=   0.114933  Q_3,1 =  -0.010876
+ Q_3,-2=   0.005604  Q_3,2 =  -0.058186  Q_3,-3=   0.052148  Q_3,3 =  -0.010219
+ Magnitude: |Q_3|=    0.155520
+ 
+              *****  Atomic multipole moments of    25(H )  *****
+ Atomic monopole moment (electron):   -0.758732   Atomic charge:    0.241268
+ Atomic dipole moments:
+ X=   -0.100561  Y=   -0.105314  Z=    0.077750  Norm=    0.165072
+ Contribution to molecular dipole moment:
+ X=   -0.334312  Y=    0.351025  Z=   -0.426611  Norm=    0.645739
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.070197  XY=   -0.000556  XZ=   -0.033858
+ YX=   -0.000556  YY=   -0.006012  YZ=   -0.036820
+ ZX=   -0.033858  ZY=   -0.036820  ZZ=   -0.064185
+ Magnitude of the traceless quadrupole moment tensor:    0.077818
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.064185   Q_2,-1=  -0.042517   Q_2,1=  -0.039096
+ Q_2,-2=  -0.000642   Q_2,2 =   0.043999
+ Magnitude: |Q_2|=    0.096914
+ Atomic electronic spatial extent <r^2>:      1.050922
+ Components of <r^2>:  X=      0.303509  Y=      0.354315  Z=      0.393098
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.109228  Q_3,-1=  -0.004193  Q_3,1 =  -0.029360
+ Q_3,-2=  -0.086084  Q_3,2 =  -0.007177  Q_3,-3=   0.054156  Q_3,3 =   0.017365
+ Magnitude: |Q_3|=    0.153319
+ 
+              *****  Atomic multipole moments of    26(H )  *****
+ Atomic monopole moment (electron):   -0.721796   Atomic charge:    0.278204
+ Atomic dipole moments:
+ X=   -0.018306  Y=   -0.128474  Z=    0.061095  Norm=    0.143434
+ Contribution to molecular dipole moment:
+ X=   -1.495946  Y=    0.896850  Z=   -0.416784  Norm=    1.793295
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.044873  XY=   -0.062018  XZ=   -0.007902
+ YX=   -0.062018  YY=    0.031813  YZ=   -0.039641
+ ZX=   -0.007902  ZY=   -0.039641  ZZ=   -0.076686
+ Magnitude of the traceless quadrupole moment tensor:    0.077056
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.076686   Q_2,-1=  -0.045774   Q_2,1=  -0.009125
+ Q_2,-2=  -0.071613   Q_2,2 =   0.007540
+ Magnitude: |Q_2|=    0.115085
+ Atomic electronic spatial extent <r^2>:      0.946541
+ Components of <r^2>:  X=      0.285598  Y=      0.294305  Z=      0.366638
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =   0.092062  Q_3,-1=  -0.050650  Q_3,1 =   0.024148
+ Q_3,-2=   0.002810  Q_3,2 =   0.061671  Q_3,-3=  -0.002940  Q_3,3 =   0.058985
+ Magnitude: |Q_3|=    0.137561
+ 
+              *****  Atomic multipole moments of    27(H )  *****
+ Atomic monopole moment (electron):   -0.722711   Atomic charge:    0.277289
+ Atomic dipole moments:
+ X=    0.069637  Y=    0.109113  Z=   -0.064209  Norm=    0.144491
+ Contribution to molecular dipole moment:
+ X=   -2.114383  Y=   -0.752382  Z=    0.456572  Norm=    2.290230
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.093276  XY=   -0.007260  XZ=   -0.046099
+ YX=   -0.007260  YY=   -0.022710  YZ=   -0.029254
+ ZX=   -0.046099  ZY=   -0.029254  ZZ=   -0.070566
+ Magnitude of the traceless quadrupole moment tensor:    0.097283
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.070566   Q_2,-1=  -0.033780   Q_2,1=  -0.053230
+ Q_2,-2=  -0.008383   Q_2,2 =   0.066965
+ Magnitude: |Q_2|=    0.116227
+ Atomic electronic spatial extent <r^2>:      0.953778
+ Components of <r^2>:  X=      0.255742  Y=      0.333066  Z=      0.364970
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.102042  Q_3,-1=   0.018050  Q_3,1 =   0.026070
+ Q_3,-2=   0.073848  Q_3,2 =   0.014972  Q_3,-3=  -0.039337  Q_3,3 =  -0.028489
+ Magnitude: |Q_3|=    0.139481
+ 
+              *****  Atomic multipole moments of    28(H )  *****
+ Atomic monopole moment (electron):   -0.768894   Atomic charge:    0.231106
+ Atomic dipole moments:
+ X=   -0.020612  Y=    0.162985  Z=   -0.062326  Norm=    0.175709
+ Contribution to molecular dipole moment:
+ X=   -0.834274  Y=   -0.979574  Z=    0.292506  Norm=    1.319522
+ Atomic quadrupole moments (Traceless Cartesian form):
+ XX=    0.022925  XY=   -0.018081  XZ=   -0.016123
+ YX=   -0.018081  YY=    0.035851  YZ=   -0.047742
+ ZX=   -0.016123  ZY=   -0.047742  ZZ=   -0.058775
+ Magnitude of the traceless quadrupole moment tensor:    0.059247
+ Atomic quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  -0.058775   Q_2,-1=  -0.055127   Q_2,1=  -0.018617
+ Q_2,-2=  -0.020878   Q_2,2 =  -0.007463
+ Magnitude: |Q_2|=    0.085625
+ Atomic electronic spatial extent <r^2>:      1.125389
+ Components of <r^2>:  X=      0.359847  Y=      0.351229  Z=      0.414313
+ Atomic octopole moments (Spherical harmonic form):
+ Q_3,0 =  -0.100466  Q_3,-1=   0.051769  Q_3,1 =  -0.021390
+ Q_3,-2=  -0.005205  Q_3,2 =  -0.104962  Q_3,-3=   0.061840  Q_3,3 =  -0.028787
+ Magnitude: |Q_3|=    0.170082
+ 
+ Calculation took up       2 seconds wall clock time
+ 
+ Note: The word "Molecular" in this context corresponds to the entire current system
+              *****  Molecular dipole and multipole moments  *****
+ Total number of electrons:    124.000061   Net charge:   -0.000061
+ Molecular dipole moment (a.u.):       1.844766     -0.637595     -0.052922
+ Molecular dipole moment (Debye):      4.688927     -1.620605     -0.134514
+ Magnitude of molecular dipole moment (a.u.&Debye):      1.952560      4.962912
+ Molecular quadrupole moments (Standard Cartesian form):
+ XX=    -88.1275  XY=     10.0792  XZ=      1.2942
+ YX=     10.0792  YY=    -66.7011  YZ=      1.9020
+ ZX=      1.2942  ZY=      1.9020  ZZ=    -74.5424
+ Molecular quadrupole moments (Traceless Cartesian form):
+ XX=    -17.5058  XY=     15.1188  XZ=      1.9414
+ YX=     15.1188  YY=     14.6338  YZ=      2.8531
+ ZX=      1.9414  ZY=      2.8531  ZZ=      2.8719
+ Magnitude of the traceless quadrupole moment tensor:   18.776725
+ Molecular quadrupole moments (Spherical harmonic form):
+ Q_2,0 =      2.8719   Q_2,-1=      3.2944   Q_2,1=      2.2417
+ Q_2,-2=     17.4577   Q_2,2 =    -18.5558
+ Magnitude: |Q_2|=     25.9464
+ Molecular electronic spatial extent <r^2>:     7564.296351
+ Components of <r^2>:  X=    6631.646656  Y=     697.106737  Z=     235.542958
+ Molecular octopole moments (Cartesian form):
+ XXX=  426.1796  YYY=   -4.3925  ZZZ=    7.1443  XYY=   49.6587  XXY=    5.2316
+ XXZ=   -0.8849  XZZ=   -1.6606  YZZ=    8.5664  YYZ=   13.0157  XYZ=   33.5777
+ Molecular octopole moments (Spherical harmonic form):
+ Q_3,0 =   -11.0519  Q_3,-1=    20.4694  Q_3,1 =  -295.4579
+ Q_3,-2=   130.0460  Q_3,2 =   -26.9183  Q_3,-3=    15.8803  Q_3,3 =   219.1487
+ Magnitude: |Q_3|=    392.1115
+ 
+                 ======== Fuzzy atomic space analysis ========
+ -10 Set X,Y,Z of reference point, current:    0.00000   0.00000   0.00000 Bohr
+ -5 Define the atoms to be considered in options 1, 2, 13, current: all atoms
+ -4 Adjust reference parameter for FLU
+ -3 Set the number of iterations for Becke partition, current:  3
+ -2 Select radius definition for Becke partition, current: Modified CSD
+ -1 Select method for partitioning atomic space, current: Becke
+ 0 Return
+ 1 Perform integration in fuzzy atomic spaces for a real space function
+ 2 Calculate atomic and molecular multipole moments and <r^2>
+ 3 Calculate and output atomic overlap matrix (AOM) in current folder
+ 4 Calculate localization and delocalization index (Fuzzy bond order)
+ 5 Calculate PDI (Para-delocalization index)
+ 6 Calculate FLU (Aromatic fluctuation index)
+ 7 Calculate FLU-pi
+ 8 Perform integration in fuzzy overlap region for a real space functions
+ 9 Calculate condensed linear response kernel (CLRK)
+ 10 Calculate PLR (Para linear response index)
+ 11 Calculate multi-center delocalization index
+ 12 Calculate information-theoretic aromaticity index (ACS Omega, 3, 18370)
+ 13 Calculate atomic effective volume, free volume and polarizability
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+ NOTE: If this module is used in your research, please cite both the Multiwfn original paper and below paper, the latter detailedly described the underlying algorithm employed in this module
+ Tian Lu, Feiwu Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model., 38, 314-323 (2012)
+ 
+      ============= Quantitative Molecular Surface Analysis =============
+ -1 Return to main menu
+ 0 Start analysis now!
+ 1 Select the way to define surface, current: Electron density, iso:  0.00100
+ 2 Select mapped function, current: Electrostatic potential (ESP)
+ 3 Spacing of grid points for generating molecular surface:  0.250000
+ 4 Advanced options
+ 5 Loading mapped function values from external file, current: No
+ 6 Start analysis without considering mapped function
+ Note: Virtual orbitals higher than LUMO+9 have been temporarily discarded for saving computational time
+
+ Unique GTFs have been constructed. Number of unique GTFs:   502
+ Spatial range of grid data:
+ X is from  -15.8133  to   16.2650 Bohr
+ Y is from   -8.7989  to    8.8814 Bohr
+ Z is from   -6.9703  to    6.8674 Bohr
+ The number of point in x,y,z:   129    72    56  Total:    520128
+ 
+ Calculating grid data of electron density...
+ Note: All exponential functions exp(x) with x< -40.000 will be ignored 
+ Unique GTFs have been constructed. Number of unique GTFs:   502
+ Progress: [--------------------------------------------------]    0.00 %     - Progress: [--------------------------------------------------]    1.79 %     \ Progress: [#-------------------------------------------------]    3.57 %     | Progress: [##------------------------------------------------]    5.36 %     / Progress: [###-----------------------------------------------]    7.14 %     - Progress: [####----------------------------------------------]    8.93 %     \ Progress: [#####---------------------------------------------]   10.71 %     | Progress: [######--------------------------------------------]   12.50 %     / Progress: [#######-------------------------------------------]   14.29 %     - Progress: [########------------------------------------------]   16.07 %     \ Progress: [########------------------------------------------]   17.86 %     | Progress: [#########-----------------------------------------]   19.64 %     / Progress: [##########----------------------------------------]   21.43 %     - Progress: [###########---------------------------------------]   23.21 %     \ Progress: [############--------------------------------------]   25.00 %     | Progress: [#############-------------------------------------]   26.79 %     / Progress: [##############------------------------------------]   28.57 %     - Progress: [###############-----------------------------------]   30.36 %     \ Progress: [################----------------------------------]   32.14 %     | Progress: [################----------------------------------]   33.93 %     / Progress: [#################---------------------------------]   35.71 %     - Progress: [##################--------------------------------]   37.50 %     \ Progress: [###################-------------------------------]   39.29 %     | Progress: [####################------------------------------]   41.07 %     / Progress: [#####################-----------------------------]   42.86 %     - Progress: [######################----------------------------]   44.64 %     \ Progress: [#######################---------------------------]   46.43 %     | Progress: [########################--------------------------]   48.21 %     / Progress: [#########################-------------------------]   50.00 %     - Progress: [#########################-------------------------]   51.79 %     \ Progress: [##########################------------------------]   53.57 %     | Progress: [###########################-----------------------]   55.36 %     / Progress: [############################----------------------]   57.14 %     - Progress: [#############################---------------------]   58.93 %     \ Progress: [##############################--------------------]   60.71 %     | Progress: [###############################-------------------]   62.50 %     / Progress: [################################------------------]   64.29 %     - Progress: [#################################-----------------]   66.07 %     \ Progress: [#################################-----------------]   67.86 %     | Progress: [##################################----------------]   69.64 %     / Progress: [###################################---------------]   71.43 %     - Progress: [####################################--------------]   73.21 %     \ Progress: [#####################################-------------]   75.00 %     | Progress: [######################################------------]   76.79 %     / Progress: [#######################################-----------]   78.57 %     - Progress: [########################################----------]   80.36 %     \ Progress: [#########################################---------]   82.14 %     | Progress: [#########################################---------]   83.93 %     / Progress: [##########################################--------]   85.71 %     - Progress: [###########################################-------]   87.50 %     \ Progress: [############################################------]   89.29 %     | Progress: [#############################################-----]   91.07 %     / Progress: [##############################################----]   92.86 %     - Progress: [###############################################---]   94.64 %     \ Progress: [################################################--]   96.43 %     | Progress: [#################################################-]   98.21 %     / Progress: [##################################################]  100.00 %     - 
+ Calculation of grid data took up wall clock time         0 s
+ 
+ The number of boundary cubes:             22920
+ The number of corners of boundary cubes:     45809
+ Generating isosurface by Marching Tetrahedra algorithm, please wait...
+ The number of surface vertices (V):      70692
+ The number of surface edges (E):        212070
+ The number of triangular facets (F):    141380
+ V+F-E-2=         0
+ Volume enclosed by the isosurface:  1827.45562 Bohr^3  ( 270.80098 Angstrom^3)
+ Among all surface vertices:
+ Min-X:     -7.5052  Max-X:    7.7792 Angstrom
+ Min-Y:     -3.9590  Max-Y:    3.9718 Angstrom
+ Min-Z:     -2.9896  Max-Z:    2.9424 Angstrom
+ 
+ Eliminating redundant surface vertices...
+ After elimination, V=    20927,  E=    62775,  F=    41850,  V+F-E-2=     0
+ Isosurface area:   957.88273 Bohr^2  ( 268.23448 Angstrom^2)
+ Sphericity:  0.7546
+ 
+ Calculating electrostatic potential at surface vertices, please wait patiently
+ Since the input file type is fch/fchk/chk and "cubegenpath" parameter in settings.ini has been properly defined, now Multiwfn directly invokes cubegen to calculate electrostatic potential
+ Running: "/lustre/home/acct-ccezwb/ccezwb/gaussian/g09/cubegen"    1 potential=SCF "N.fchk" ESPresult.cub -5 h < cubegenpt.txt > nouseout
+ Deleting cubegenpt.txt ESPresult.cub nouseout
+ Calculation of mapped function took up wall clock time        11 s
+ 
+ Global surface minimum: -0.053182 a.u. at  -6.685126   2.605415  -0.263527 Ang
+ Global surface maximum:  0.041640 a.u. at  -0.694967  -3.521997   0.677187 Ang
+ 
+ The number of surface minima:    11
+   #       a.u.         eV      kcal/mol           X/Y/Z coordinate(Angstrom)
+     1 -0.05313041   -1.445752  -33.339862      -7.380977   0.767880   0.841830
+*    2 -0.05318206   -1.447158  -33.372277      -6.685126   2.605415  -0.263527
+     3 -0.00350247   -0.095307   -2.197835      -2.842546  -1.813515  -1.507325
+     4 -0.00440424   -0.119845   -2.763705      -2.312282  -0.437761  -2.258859
+     5 -0.00465468   -0.126660   -2.920857      -1.515216  -0.309690   1.981394
+     6 -0.00477851   -0.130030   -2.998563      -1.158966   0.833059   1.403837
+     7 -0.00265552   -0.072260   -1.666363       0.354056  -1.485363  -2.368039
+     8 -0.01013141   -0.275690   -6.357564       1.400238  -0.701563   1.590401
+     9 -0.04448757   -1.210568  -27.916392       3.903925   1.888820  -2.302997
+    10 -0.03858473   -1.049944  -24.212306       4.532000  -1.413634   1.803030
+    11 -0.03887894   -1.057950  -24.396921       5.102551  -0.733536   2.132424
+ 
+ The number of surface maxima:    16
+   #       a.u.         eV      kcal/mol           X/Y/Z coordinate(Angstrom)
+     1  0.02047925    0.557269   12.850931      -5.121506  -0.086713  -1.439522
+     2  0.02036313    0.554109   12.778069      -4.288271   1.411658   1.721675
+     3  0.03196608    0.869841   20.059037      -4.201838  -2.871285   1.536028
+     4 -0.00084481   -0.022988   -0.530124      -2.842179  -1.015286  -1.635157
+     5  0.03064228    0.833819   19.228337      -2.140474   2.902652  -1.558618
+     6 -0.00133087   -0.036215   -0.835131      -2.028969   0.367877   1.599118
+*    7  0.04163993    1.133080   26.129475      -0.694967  -3.521997   0.677187
+     8  0.03721843    1.012765   23.354935       0.691956   1.625626  -1.375542
+     9  0.03982827    1.083782   24.992638       1.591617  -3.546287  -0.082934
+    10  0.02907125    0.791069   18.242500       3.009273   0.972421   1.014022
+    11  0.02841041    0.773087   17.827816       3.294669  -1.995589  -2.867159
+    12  0.02807165    0.763868   17.615242       4.497264   3.850449   0.965033
+    13  0.02990112    0.813651   18.763251       5.528340  -0.687078  -0.779291
+    14  0.03372873    0.917805   21.165113       6.555906   3.364774   0.663208
+    15  0.02767809    0.753159   17.368280       7.361496   2.215801  -0.897194
+    16  0.03316199    0.902384   20.809481       7.323309   2.474011   2.384751
+ 
+       ================= Summary of surface analysis =================
+ 
+ Volume:  1827.45562 Bohr^3  ( 270.80098 Angstrom^3)
+ Estimated density according to mass and volume (M/V):    1.4546 g/cm^3
+ Minimal value:    -33.37228 kcal/mol   Maximal value:     26.12947 kcal/mol
+ Overall surface area:         957.88273 Bohr^2  ( 268.23448 Angstrom^2)
+ Positive surface area:        597.98759 Bohr^2  ( 167.45358 Angstrom^2)
+ Negative surface area:        359.89514 Bohr^2  ( 100.78090 Angstrom^2)
+ Overall average value:    0.00354480 a.u. (      2.22440 kcal/mol)
+ Positive average value:   0.01912602 a.u. (     12.00177 kcal/mol)
+ Negative average value:  -0.02234435 a.u. (    -14.02130 kcal/mol)
+ Overall variance (sigma^2_tot):  0.00037342 a.u.^2 (   147.04033 (kcal/mol)^2)
+ Positive variance:        0.00011277 a.u.^2 (     44.40368 (kcal/mol)^2)
+ Negative variance:        0.00026065 a.u.^2 (    102.63665 (kcal/mol)^2)
+ Balance of charges (nu):   0.21078928
+ Product of sigma^2_tot and nu:   0.00007871 a.u.^2 (   30.99453 (kcal/mol)^2)
+ Internal charge separation (Pi):   0.01966158 a.u. (     12.33784 kcal/mol)
+ Molecular polarity index (MPI):   0.55334921 eV (     12.76055 kcal/mol)
+ Nonpolar surface area (|ESP| <= 10 kcal/mol):    105.13 Angstrom^2  ( 39.20 %)
+ Polar surface area (|ESP| > 10 kcal/mol):        163.10 Angstrom^2  ( 60.80 %)
+ 
+ Surface analysis finished!
+ Total wall clock time passed during this task:    12 s
+ Note: Previous orbital information has been restored
+ Citation of molecular polarity index (MPI): Carbon, 171, 514 (2021) DOI: 10.1016/j.carbon.2020.09.048
+ 
+                    ---------- Post-processing menu ----------
+ -3 Visualize the surface
+ -2 Export the grid data to surf.cub in current folder
+ -1 Return to upper level menu
+ 0 View molecular structure, surface minima and maxima
+ 1 Export surface extrema as plain text file
+ 2 Export surface extrema as pdb file
+ 3 Discard surface minima in certain value range
+ 4 Discard surface maxima in certain value range
+ 5 Export molecule as pdb format file
+ 6 Export all surface vertices to vtx.pdb in current folder
+ 7 Export all surface vertices to vtx.txt in current folder
+ 8 Export all surface vertices and surface extrema as vtx.pqr and extrema.pqr
+ 9 Output surface area in specific value range of mapped function
+ 10 Output the closest and farthest distance between the surface and a point
+ 11 Output surface properties of each atom
+ 12 Output surface properties of specific fragment
+ 13 Calculate grid data of mapped function and export it to mapfunc.cub
+ 14 Calculate area of the region around a specific surface extreme
+ 15 Basin-like partition of surface and calculate areas
+ 18 Discard some surface extrema by inputting their indices
+ 19 Merge some surface extrema and take their average position
+ 
+ NOTE: If this module is used in your research, please cite both the Multiwfn original paper and below paper, the latter detailedly described the underlying algorithm employed in this module
+ Tian Lu, Feiwu Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model., 38, 314-323 (2012)
+ 
+      ============= Quantitative Molecular Surface Analysis =============
+ -1 Return to main menu
+ 0 Start analysis now!
+ 1 Select the way to define surface, current: Electron density, iso:  0.00100
+ 2 Select mapped function, current: Electrostatic potential (ESP)
+ 3 Spacing of grid points for generating molecular surface:  0.250000
+ 4 Advanced options
+ 5 Loading mapped function values from external file, current: No
+ 6 Start analysis without considering mapped function
+ 
+ Note: A set of grid data is presented in memory
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
