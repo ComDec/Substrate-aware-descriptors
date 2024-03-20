@@ -1,0 +1,11 @@
+%mem=80GB
+%nprocshared=20
+%chk=N-1.chk
+# m062x def2svp geom=check
+
+T
+
+1 2
+
+
+
