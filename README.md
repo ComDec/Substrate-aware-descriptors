@@ -19,6 +19,8 @@ The data used in the paper are in the **data** folder. Some scripts about data c
 
 ## Useful Scripts for Streamlined System
 
+The scripts are in the **utils** folder.
+
 1. The SMILES will be converted into gjf files by Open Babel software.
 
 ```shell
