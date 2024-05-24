@@ -27,7 +27,7 @@ The scripts are in the **utils** folder.
 python smile2gif.py 'SAMPLE1.csv'
 ```
 
-2. Gaussian 16.0 and Multiwfn software will used for CDFT calculation.
+2. Gaussian 09 and Multiwfn software will used for CDFT calculation.
 
 ```shell
 python slurm_generate.py 'gjf_path'
