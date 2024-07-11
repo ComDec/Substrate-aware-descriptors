@@ -17,6 +17,8 @@ pip install xgboost
 
 The data used in the paper are in the **data** folder. Some scripts about data cleaning and so on are available in **tools** folder.
 
+The file in gjf format are optimized molecule 3D conformations.
+
 ## Useful Scripts for Streamlined System
 
 The scripts are in the **utils** folder.
